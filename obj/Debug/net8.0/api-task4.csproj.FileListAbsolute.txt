@@ -1,0 +1,14 @@
+/workspaces/active-dev/Projects/api-task4/bin/Debug/net8.0/api-task4
+/workspaces/active-dev/Projects/api-task4/bin/Debug/net8.0/api-task4.deps.json
+/workspaces/active-dev/Projects/api-task4/bin/Debug/net8.0/api-task4.runtimeconfig.json
+/workspaces/active-dev/Projects/api-task4/bin/Debug/net8.0/api-task4.dll
+/workspaces/active-dev/Projects/api-task4/bin/Debug/net8.0/api-task4.pdb
+/workspaces/active-dev/Projects/api-task4/obj/Debug/net8.0/api-task4.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/active-dev/Projects/api-task4/obj/Debug/net8.0/api-task4.AssemblyInfoInputs.cache
+/workspaces/active-dev/Projects/api-task4/obj/Debug/net8.0/api-task4.AssemblyInfo.cs
+/workspaces/active-dev/Projects/api-task4/obj/Debug/net8.0/api-task4.csproj.CoreCompileInputs.cache
+/workspaces/active-dev/Projects/api-task4/obj/Debug/net8.0/api-task4.dll
+/workspaces/active-dev/Projects/api-task4/obj/Debug/net8.0/refint/api-task4.dll
+/workspaces/active-dev/Projects/api-task4/obj/Debug/net8.0/api-task4.pdb
+/workspaces/active-dev/Projects/api-task4/obj/Debug/net8.0/api-task4.genruntimeconfig.cache
+/workspaces/active-dev/Projects/api-task4/obj/Debug/net8.0/ref/api-task4.dll
