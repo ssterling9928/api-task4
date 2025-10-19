@@ -1,7 +1,12 @@
 using System.Text.Json.Serialization;
-using System.Collections.Generic;
-using System.Runtime;
 
+/// <summary> /////////////////////////////////////////////////////////////////////////////
+/// ///
+/// Class: WeatherModel()
+/// Description: Model used for determining weather conditions from calculated geolocations,
+/// /// and also conforms to JSON object deserialization.  JSON Top Level Weather Object
+/// ///
+/// </summary> ////////////////////////////////////////////////////////////////////////////
 class WeatherModel()
 {
     [JsonPropertyName("main")]

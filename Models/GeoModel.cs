@@ -1,5 +1,12 @@
 using System.Text.Json.Serialization;
 
+/// <summary> /////////////////////////////////////////////////////////////////////////////
+/// ///
+/// Class: GeoModel()
+/// Description: Model used for determining geolocations from given City, State, and Countries,
+/// /// and also conforms to JSON object deserialization.
+/// ///
+/// </summary> ////////////////////////////////////////////////////////////////////////////
 class GeoModel()
 {
     [JsonPropertyName("name")]

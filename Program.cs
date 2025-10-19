@@ -1,14 +1,23 @@
 ﻿using System;
-using System.Net;
-using System.Threading.Tasks;
 
+/// <summary> /////////////////////////////////////////////////////////////////////////////
+/// ///
+/// Class: Program()
+/// Description: Entry point to program.  Used for Main function
+/// ///
+/// </summary> ////////////////////////////////////////////////////////////////////////////
 class Program
 {
+    // Main function uses async to create WeatherModel. 
     static async Task Main()
     {
+        // Create a new WeatherService class
         WeatherService service = new();
-        var weather = await service.GetWeatherAsync("Batesville", "AR");
 
+        // create new WeatherModel by calling the WeatherService async method
+        var weather = await service.GetWeatherAsync("Anchorage", "AK", "US");
+
+        // Unwraps all nullable properties. Will not display data if null
         if (weather.Main is not null)
         {
             Console.WriteLine($"City: {weather.Name}");
@@ -21,9 +30,6 @@ class Program
         {
             Console.WriteLine($"Description: {weather.Weather[0].Description}");
         }
-
-        
-
     }
 }
 
